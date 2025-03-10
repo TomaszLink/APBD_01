@@ -19,6 +19,7 @@ static double average(double[] numbers)
 
 static int max(int[] numbers)
 {
+    Console.WriteLine("Max method:");
     int max = numbers[0];
     for (int i = 0; i < numbers.Length; i++)
     {
